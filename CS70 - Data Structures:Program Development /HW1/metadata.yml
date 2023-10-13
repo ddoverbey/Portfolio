@@ -1,0 +1,14 @@
+---
+:id: 191282064
+:submitters:
+- :name: Miranda Lau
+  :email: mlau@hmc.edu
+- :name: Devon Daniel Overbey
+  :email: doverbey@g.hmc.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2023-09-08 04:51:19.247657000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2023-09-07 21:51:19.247657000 Z
+:status: processed
+:score: 50.0

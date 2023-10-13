@@ -1,0 +1,21 @@
+
+
+Explanation 1:
+let C be the amount of packages that Quinn adds to a train.
+Adding a package gives her $4 while loading a package costs her $1.
+She only solely loses money when changing packages from train to train.
+This will only happen when she has C packages on her train, which gave her 4C and cost her 1C
+Then when switching over the packages to a new train, it'll cost 1C. So far her gain is 4C and loss is 2C.
+She doesn't gain any money when removing packages and loses money when she has to downsize her train.
+downsizing will only happen when there are C/4 packages. and it'll only cost C/4 packages to move everything to the new train.
+In all of this, her total gain was 4C and total loss was 2C+C/4. 
+Therefore no matter what she does the profit will always be greater than the loss.
+
+Explanation 2:
+- we are charged every 2^n packages 
+- every time we upsize a car, we move 4x as many packages (per car), $4 lost (operating cost) per car
+- therefore, since we only add cars when we increase exponentially, 
+    the cost of adding cars will never surpass the revenue generated from loading packages 
+
+The model prevents the loss of cars until absolutely necessary, which saves $4/train 
+
