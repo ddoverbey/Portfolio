@@ -1,0 +1,12 @@
+---
+:id: 26677706
+:submitters:
+- :name: Devon Overbey
+  :email: doverbey@g.hmc.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2019-12-15 21:30:47.522530000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2019-12-15 13:30:47.522530000 Z
+:status: processed
+:score: 104.2
